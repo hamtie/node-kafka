@@ -1,4 +1,4 @@
-{
+ {
   "name": "kafka",
   "description": "A node client for Kafka",
   "version": "0.1.7",
@@ -12,7 +12,7 @@
     "url": "http://github.com/marcuswestin/node-kafka/issues"
   },
   "engines": {
-    "node": "*"
+    "node": ">=0.2.0"
   },
   "licenses": [
     {
@@ -20,11 +20,12 @@
       "url": "http://github.com/marcuswestin/node-kafka/raw/master/LICENSE"
     }
   ],
-  "main": "kafka",
+  "dependencies": {
+      "bigint": ">=0.3.8",
+      "std": ">=0.1.31"
+  },
+  "main": "./kafka.js",
   "directories": {
     "lib": "lib"
-  },
-  "files": [
-    ""
-  ]
+  }
 }
