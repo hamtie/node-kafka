@@ -60,6 +60,7 @@ API
 
 
 `kafka.Producer`
+
 ``` js
 	var producer = new kafka.Producer({
 		// these are also the default values
