@@ -22,7 +22,7 @@
   ],
   "dependencies": {
       "bigint": ">=0.3.8",
-      "std": ">=0.1.31"
+      "std": "https://github.com/fouasnon/std.js/tarball/master"
   },
   "main": "./kafka.js",
   "directories": {
